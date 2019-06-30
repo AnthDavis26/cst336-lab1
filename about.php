@@ -29,34 +29,40 @@ in html
 		<!-- Thematic change in content -->
 		<hr /> 
         <nav>
-			<b><a href="index.php">HOME</a></b>
-			<a href="about.php">About</a>
+			<a href="index.php">Home</a>
+			<b><a href="about.php">ABOUT</a></b>
 			<a href="contact.php">Contact</a>
 		</nav>
 		
 		<br /><br />
 		
-		<main>
+		<div id="content">
+			<table>
+				<tr id="table-header">
+					<td><strong>Programming Language</strong></td>
+					<td><strong>Years Experience</strong></td>
+				</tr>
+				<tr class="table-row">
+					<td>Java</td>
+					<td>3</td>
+				</tr>
+				<tr class="table-row">
+					<td>C++</td>
+					<td>2</td>
+				</tr>
+				<tr class="table-row">
+					<td>PHP</td>
+					<td>1</td>
+				</tr>
+			</table>
 			
-			<figure>
-				<img src="img/anthony_davis.png" alt="Picture of Anthony Davis" />
-			</figure>
+			<ul>
+				<li><span class="hobby">Video games</span>: I primarily play on PC, but hold a soft spot for console games from the 80s and 90s.</li>
+				<li><span class="hobby">Walking</span>: Although I'm no athlete, I enjoy the refreshing air as I walk around my town.</li>
+				<li><span class="hobby">Programming</span>: I'm learning new things as much as possible.</li>
+			</ul>
 			
-			<div>
-				Hello! <br />
-				<p>Thank you for visiting my professional portfolio website.</p>
-				
-				<p>I am a Software Engineer and have been recently hired at the Acme Corporation.</p>
-				
-				<p><a href="contact.php">Feel free to contact me!</a></p>
-				
-				<br /><br />
-				
-				<em>"With ordinary talent and extraordinary <strong>perseverance</strong>, all things are attainable"</em><br />
-				- Thomas F. Buxton
-			</div>
-			
-		</main>
+		</div>
 		
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->

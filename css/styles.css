@@ -3,16 +3,13 @@ body {
 	color:white; /* Text color */
 }
 
-
 a { /* Link color */
 	color:white;
 }
 
-
 header, main, nav, footer {
 	text-align: center;
 }
-
 
 nav a { /* Navigation links */
 	padding:15px;
@@ -37,7 +34,46 @@ footer {
 	font-size:.75em;
 	background-color:white;
 }
+
+table{
+	margin: 0px auto;
+}
+
+td {
+	padding-right: 10px;
+	font-size: 1.3em;
+}
+
+td strong {
+	color:white;
+}
+
+#table-header {
+	background-color: #331d09;
+}
+
+.table-row {
+	background-color: #8c7561;
+}
 	
+	
+ul {
+	width:500px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.hobby {;
+	color: white;
+	font-weight: bold;
+	background-color: #331d09;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+	margin-bottom: 0px;
+}
 
 
 	

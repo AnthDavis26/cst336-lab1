@@ -29,35 +29,15 @@ in html
 		<!-- Thematic change in content -->
 		<hr /> 
         <nav>
-			<b><a href="index.php">HOME</a></b>
+			<a href="index.php">Home</a>
 			<a href="about.php">About</a>
-			<a href="contact.php">Contact</a>
+			<b><a href="contact.php">CONTACT</a></b>
 		</nav>
 		
 		<br /><br />
-		
-		<main>
-			
-			<figure>
-				<img src="img/anthony_davis.png" alt="Picture of Anthony Davis" />
-			</figure>
-			
-			<div>
-				Hello! <br />
-				<p>Thank you for visiting my professional portfolio website.</p>
-				
-				<p>I am a Software Engineer and have been recently hired at the Acme Corporation.</p>
-				
-				<p><a href="contact.php">Feel free to contact me!</a></p>
-				
-				<br /><br />
-				
-				<em>"With ordinary talent and extraordinary <strong>perseverance</strong>, all things are attainable"</em><br />
-				- Thomas F. Buxton
-			</div>
-			
-		</main>
-		
+		<div id="content">
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScoqZfin54cTVs-ryO7ekU3oc4llOpkK5pPVp7G6zwCwnUEkw/viewform?embedded=true" width="640" height="1016" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		</div>
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
