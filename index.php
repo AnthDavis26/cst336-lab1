@@ -12,8 +12,8 @@ in html
 <!-- This is the head -->
 <!-- All styles and javascript go inside the head -->
     <head>
-        
-        
+		<meta charset="utf-8" />
+		<title> Anthony Davis: Personal Website </title>
     </head>
 <!-- closing head -->
 
