@@ -14,6 +14,7 @@ in html
     <head>
 		<meta charset="utf-8" />
 		<title> Anthony Davis: Personal Website </title>
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
 <!-- closing head -->
 
