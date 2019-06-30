@@ -1,6 +1,43 @@
 body {
-	background-color:#e5d2af;
-	color:black;
+	background-color:#5e3511;
+	color:white; /* Text color */
 }
+
+
+a { /* Link color */
+	color:white;
+}
+
+
+header, main, nav, footer {
+	text-align: center;
+}
+
+
+nav a { /* Navigation links */
+	padding:15px;
+	padding-bottom:4px;
+	font-size:1.8em;
+	text-decoration:none;
+}
+
+nav a:hover{
+	border-bottom:2px white solid;
+	font-size: 2em;
+	transition: .9s;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	color:black;
+	font-size:.75em;
+	background-color:white;
+}
+	
+
 
 	

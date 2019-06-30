@@ -22,13 +22,13 @@ in html
     <!-- This is where we place the content of our website -->
     <body>
 		<header>
-			<h1> Anthony Davis </h1>
+			<h1><b>ANTHONY DAVIS</b></h1>
 		</header>
 		
 		<!-- Thematic change in content -->
 		<hr /> 
         <nav>
-			<a href="index.php">Home</a>
+			<b><a href="index.php">HOME</a></b>
 			<a href="about.php">About</a>
 			<a href="contact.php">Contact</a>
 		</nav>
@@ -62,8 +62,10 @@ in html
         <footer>
 			<hr>
 				CST336 Internet Programming. 2019&copy; Davis <br />
-				<strong>Disclaimer:</strong>The information in this webpage is fictitious.<br />
-				It is used for academic purposes only.  
+				<strong>Disclaimer:</strong>The information in this webpage is fictitious.
+				 It is used for academic purposes only. <br />
+
+				<img src="img/csumb_logo.png" alt="CSU Monterey Bay logo" />
         </footer>
         <!-- closing footer -->
         
