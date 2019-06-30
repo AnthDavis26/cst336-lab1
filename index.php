@@ -20,7 +20,17 @@ in html
     <!-- This is the body -->
     <!-- This is where we place the content of our website -->
     <body>
-        
+		<header>
+			<h1> Anthony Davis </h1>
+		</header>
+		
+		<!-- Thematic change in content -->
+		<hr /> 
+        <nav>
+			<a href="index.php">Home</a>
+			<a href="about.php">About</a>
+			<a href="contact.php">Contact</a>
+		</nav>
         
         
         <!-- This is the footer -->
